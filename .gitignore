@@ -341,6 +341,7 @@ docs/TERMINAL_UI.md
 
 # Scripts in development
 scripts/
+!scripts/cleanup_repo.sh
 !agent_mcp/dashboard/scripts/
 
 # Development folder
@@ -377,3 +378,11 @@ conversations/
 **/conversations/
 session-*/
 **/session-*/
+# Agent-MCP Cleanup - Regeneratable files
+node_modules/
+.venv/
+__pycache__/
+*.egg-info/
+.agent/
+archive/
+.DS_Store
